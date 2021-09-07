@@ -1,0 +1,77 @@
+.Chicken{
+    float:left; 
+    border: solid #9913e7;
+   padding-top: 0px;
+    background-color:aqua;
+    margin-top: 10px;
+    margin: 15px;
+
+}
+.Chicken h3{
+    background-color:lightcoral;
+    border: solid #9913e7;
+    float:right;
+    float:top;
+    width:20%;
+    margin-top:0;
+}
+.Mutton{
+    float:left; 
+    border: solid rgb(90, 3, 3);
+    
+    margin-top: 10px;
+    background-color:yellowgreen;
+    margin: 15px;
+    
+}
+.Mutton h3{
+    background-color:yellow;
+    border: solid rgb(90, 3, 3);
+    float:right;
+    float:top;
+    width:20%;
+    margin-top: 0 ;
+}
+.Fish{
+    float:left; 
+    border: solid rgb(90, 3, 10);
+
+    margin-top: 10px;
+    background-color:pink;
+    margin: 15px;
+  
+}
+.Fish h3{
+    background-color:orange;
+    border: solid rgb(90, 3, 10);
+    float:right;
+    float:top;
+    width:20%;
+    margin-top: 0 ;
+}
+
+body{
+    text-align: center;
+}
+@media (min-width:992px){
+    .Chicken{
+        width: 30%;
+    }
+    .Mutton{
+        width: 30%;
+    }
+    .Fish{
+        width: 30%;
+    }
+}
+@media (min-width:768px) and (max-width:991px)  {
+    .Chicken{
+        width: 40%;
+    }
+    .Mutton{
+        width: 40%;
+    }
+    .Fish{
+        width: 84%;
+    }
+}
